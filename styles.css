@@ -24,3 +24,15 @@ aside {
     overflow-y: auto;          /* Allow vertical scrolling */
     padding: 15px;             /* Optional padding for aesthetics */
 }
+
+/* Responsive styles */
+@media (max-width: 768px) { /* Adjust for devices with width less than or equal to 768px */
+    main {
+        flex-direction: column; /* Stack article and aside vertically */
+    }
+
+    article, aside {
+        flex: none;             /* Allow them to take full width */
+        width: 100%;            /* Full width on small screens */
+    }
+}
