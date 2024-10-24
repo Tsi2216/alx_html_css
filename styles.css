@@ -25,6 +25,60 @@ aside {
     padding: 15px;             /* Optional padding for aesthetics */
 }
 
+/* Logo styles */
+.logo {
+    font-size: 2em;            /* Increase size of the logo */
+    color: #ffcc00;            /* Change logo color */
+    margin-right: 10px;        /* Space between logo and text */
+}
+
+/* Header styles */
+header {
+    background-color: #333;    /* Dark background for the header */
+    padding: 10px;             /* Padding around the header */
+}
+
+header ul {
+    list-style: none;          /* Remove bullet points */
+    display: flex;             /* Flexbox for header list */
+    align-items: center;       /* Center items vertically */
+}
+
+header ul li {
+    margin-right: 20px;        /* Space between list items */
+}
+
+header ul li a {
+    color: white;              /* White text for links */
+    text-decoration: none;     /* Remove underline from links */
+}
+
+header ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Article styles */
+article {
+    background-color: #f9f9f9; /* Light background for article */
+    border: 1px solid #ddd;    /* Border around article */
+    border-radius: 5px;        /* Rounded corners */
+}
+
+/* Aside styles */
+aside {
+    background-color: #f1f1f1; /* Slightly darker background for aside */
+    border: 1px solid #ddd;    /* Border around aside */
+    border-radius: 5px;        /* Rounded corners */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;    /* Dark background for footer */
+    color: white;              /* White text in footer */
+    text-align: center;        /* Center text */
+    padding: 10px;             /* Padding around footer */
+}
+
 /* Responsive styles */
 @media (max-width: 768px) { /* Adjust for devices with width less than or equal to 768px */
     main {
