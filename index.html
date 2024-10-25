@@ -5,66 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4a2b055604.js" crossorigin="anonymous"></script>
     <title>Software School</title>
-    <style>
-        body {
-            font-family: 'Source Sans Pro', sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem;
-            background-color: #f8f9fa;
-        }
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 1rem;
-        }
-        nav a {
-            text-decoration: none;
-            color: #333;
-        }
-        section {
-            padding: 2rem 1rem;
-            text-align: center;
-        }
-        .cta-button {
-            background-color: #007bff;
-            color: white;
-            padding: 0.5rem 1rem;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .testimonial, .popular-tutorials {
-            display: flex;
-            justify-content: space-around;
-            margin: 1rem 0;
-        }
-        footer {
-            background-color: #343a40;
-            color: white;
-            text-align: center;
-            padding: 1rem 0;
-        }
-        .social-icons {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-        }
-        .instructor-profiles, .tutorials {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-        .tutorials div, .instructor-profiles div {
-            max-width: 200px;
-            margin: 1rem;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to styles.css -->
 </head>
 <body>
     <header>
@@ -92,19 +33,19 @@
             <div class="instructor-profiles">
                 <div>
                     <h3>John Doe</h3>
-                    <p>Expert in Web Development</p>
+                    <p>Expert in Web Development with over 10 years of experience. John specializes in front-end technologies and has a passion for teaching the latest web trends and best practices.</p>
                 </div>
                 <div>
                     <h3>Jane Smith</h3>
-                    <p>Data Science Specialist</p>
+                    <p>A Data Science Specialist, Jane has worked with numerous companies to help them leverage data for better decision-making. She brings real-world experience into her teaching.</p>
                 </div>
                 <div>
                     <h3>Emily Johnson</h3>
-                    <p>UI/UX Design Guru</p>
+                    <p>UI/UX Design Guru with a keen eye for detail, Emily has designed user interfaces for several high-profile applications. She focuses on user-centered design principles.</p>
                 </div>
                 <div>
                     <h3>Michael Brown</h3>
-                    <p>Cybersecurity Expert</p>
+                    <p>Cybersecurity Expert, Michael has over 15 years of experience in the field. He educates students on the importance of security in software development and best practices to prevent breaches.</p>
                 </div>
             </div>
         </section>
@@ -113,7 +54,7 @@
             <h2>Testimonials</h2>
             <blockquote>« The courses are well-structured and really helped me boost my career in tech! Highly recommended! »</blockquote>
             <h3>Alex Taylor</h3>
-            <p>Software Engineer</p>
+            <p>Software Engineer with a focus on full-stack development. Alex credits the program for providing the foundational knowledge that enabled him to transition into a tech career.</p>
         </section>
 
         <section class="popular-tutorials">
@@ -121,7 +62,7 @@
             <div class="tutorials">
                 <div>
                     <h3>Python for Beginners</h3>
-                    <p>Learn the fundamentals of Python programming.</p>
+                    <p>Learn the fundamentals of Python programming through interactive exercises and real-world projects. This course covers basic syntax, data structures, and libraries.</p>
                     <h4>John Doe</h4>
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -134,7 +75,7 @@
                 </div>
                 <div>
                     <h3>Web Development Bootcamp</h3>
-                    <p>Become a full-stack developer in just 12 weeks!</p>
+                    <p>Become a full-stack developer in just 12 weeks! This intensive program covers HTML, CSS, JavaScript, and back-end technologies, including databases.</p>
                     <h4>John Doe</h4>
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -147,7 +88,7 @@
                 </div>
                 <div>
                     <h3>Data Science with R</h3>
-                    <p>Discover data science techniques using R programming.</p>
+                    <p>Discover data science techniques using R programming. Learn data manipulation, statistical analysis, and visualization to extract insights from data.</p>
                     <h4>Jane Smith</h4>
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -160,7 +101,7 @@
                 </div>
                 <div>
                     <h3>UI/UX Design Fundamentals</h3>
-                    <p>Learn the principles of user interface and experience design.</p>
+                    <p>Learn the principles of user interface and experience design. This course covers design thinking, wireframing, and prototyping tools.</p>
                     <h4>Emily Johnson</h4>
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -178,19 +119,19 @@
             <h2>Free Membership</h2>
             <div>
                 <h3>Access to Free Resources</h3>
-                <p>Get access to tutorials, eBooks, and more.</p>
+                <p>Get access to a wealth of tutorials, eBooks, and other resources designed to enhance your learning experience. Our curated materials help you stay ahead in your studies.</p>
             </div>
             <div>
                 <h3>Join Our Community</h3>
-                <p>Become part of our vibrant learning community.</p>
+                <p>Become part of our vibrant learning community where you can connect with peers, ask questions, and share knowledge. Collaboration fosters growth and understanding.</p>
             </div>
             <div>
                 <h3>Weekly Webinars</h3>
-                <p>Participate in weekly webinars with industry experts.</p>
+                <p>Participate in engaging weekly webinars featuring industry experts. These sessions cover various topics and provide you with the latest insights in technology and education.</p>
             </div>
             <div>
                 <h3>Exclusive Content</h3>
-                <p>Access exclusive content and resources.</p>
+                <p>Access exclusive content and resources available only to our members. This includes advanced tutorials, case studies, and expert interviews to deepen your knowledge.</p>
             </div>
             <button class="cta-button">SIGN UP FOR FREE</button>
         </section>
@@ -200,11 +141,11 @@
             <div>
                 <div>
                     <h3>How do I enroll in a course?</h3>
-                    <p>Simply click on the course you want and follow the enrollment instructions.</p>
+                    <p>Simply click on the course you want and follow the enrollment instructions provided on the course page. Enrollment is quick and user-friendly!</p>
                 </div>
                 <div>
                     <h3>What is the duration of the courses?</h3>
-                    <p>Course durations vary; check individual course descriptions for details.</p>
+                    <p>Course durations vary; each course page includes detailed information about the expected time commitment. Most courses are designed to fit into your busy schedule.</p>
                 </div>
             </div>
         </section>
@@ -225,4 +166,3 @@
     </footer>
 </body>
 </html>
-        
