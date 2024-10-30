@@ -1,4 +1,4 @@
-/* CSS styles */
+/* General Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  position: absolute;
+  position: absolute; /* Consider changing to relative if needed */
   top: -20px;
   left: 0;
   width: 100%;
@@ -14,11 +14,12 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background-color: none;
+  background-color: transparent; /* Change this to a valid color if needed */
   color: #fff;
   z-index: 1;
 }
 
+/* Logo and Navigation Styles */
 .logo {
   font-size: 10px;
   display: flex;
@@ -51,6 +52,7 @@ nav ul li a {
   text-transform: uppercase;
 }
 
+/* Hero Section Styles */
 .hero {
   position: relative;
   background-image: url("images/object.png");
@@ -107,6 +109,7 @@ nav ul li a {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
+/* Instructors Section */
 .instructors {
   position: absolute;
   bottom: -400px;
@@ -137,8 +140,9 @@ nav ul li a {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
+/* Quote Section */
 .quote-container {
-  background-color:  #c287d0;
+  background-color: #c287d0;
   padding: 80px;
   border-radius: 0px;
   display: flex;
@@ -154,7 +158,6 @@ nav ul li a {
 
 .quote-text {
   font-size: 15px;
-  font-weight: none;
   color: #ffffff;
 }
 
@@ -162,7 +165,7 @@ nav ul li a {
   font-size: 16px;
   color: #ffffff;
   margin-top: 0px;
-  margin-left: 50px ;
+  margin-left: 50px;
 }
 
 .weather-presenter {
@@ -172,6 +175,124 @@ nav ul li a {
   margin-left: 50px;
 }
 
+/* Tutorial Section Styles */
+.tutorial-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px; /* Use gap instead of grid-gap */
+  padding: 20px;
+}
+
+.tutorial-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.2s; /* Add transition for hover effect */
+}
+
+.tutorial-item:hover {
+  transform: translateY(-3px); /* Subtle lift effect on hover */
+}
+
+.tutorial-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.play-button {
+  position: absolute;
+  top: 25%; /* Center vertically */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Combine transitions */
+}
+
+.play-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.tutorial-item:hover .play-button {
+  transform: translate(-50%, -50%) scale(1.1);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.tutorial-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 0 10px;
+}
+
+.tutorial-description {
+  font-size: 12px; /* Increased for better readability */
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.instructor-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.instructor-image {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%; /* Changed to 50% for a perfect circle */
+  margin-right: 10px;
+  margin-top: -35px;
+}
+
+.instructor-name {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.rating {
+  color: #c287d0;
+  font-size: 10px;
+  margin-top: -40px;
+}
+
+.duration {
+  font-size: 10px;
+  color: #c287d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  margin-left: 200px;
+}
+
+.tutorials-title-container {
+  text-align: center; /* Center title for better layout */
+  margin: 20px 0; /* Add some vertical margin */
+}
+
+.tutorials-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+.highlight {
+  color: #c287d0;
+  font-weight: bold;
+}
+
+/* Responsive Styles */
 @media (max-width: 768px) {
   .quote-container {
     flex-direction: column;
