@@ -405,11 +405,11 @@ nav ul li a {
   }
 }
 .faq-container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 40px;
   font-family: Arial, sans-serif;
-  color: #252B42;
+  color: hsl(228, 28%, 20%);
 }
 
 .faq-container h2 {
@@ -445,4 +445,50 @@ nav ul li a {
 .faq-item p {
   line-height: 1.5;
   font-size: 10px;
+}
+
+footer {
+  background-color: #071629;
+  padding: 50px 0;
+  color: #fff;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.logo img {
+  max-width: 150px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.social-icons {
+  display: flex;
+  margin-right: 300px;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.social-icons i {
+  font-size: 20px;
+  color: #fff;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.social-icons i:hover {
+  color: #c271ff;
 }
