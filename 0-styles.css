@@ -1,10 +1,14 @@
 :root {
+
     --primary-color: #ff5a5f;
+    
     --text-color: #fff;
+    
     --background-image: url('headphones.png');
-  }
-  
-  body {
+    
+    }
+    
+    body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -13,36 +17,36 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-  }
-  
-  header {
+    }
+    
+    header {
     background-color: transparent;
     color: var(--text-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-  }
-  
-  .logo {
+    }
+    
+    .logo {
     display: flex;
     align-items: center;
     font-size: 13px;
-  }
-  
-  .logo img {
+    }
+    
+    .logo img {
     height: 40px;
     margin-right: 10px;
-  }
-  
-  nav a {
+    }
+    
+    nav a {
     color: var(--text-color);
     text-decoration: none;
     margin-left: 20px;
     font-size: 13px;
-  }
-  
-  .hero {
+    }
+    
+    .hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,19 +55,19 @@
     color: var(--text-color);
     text-align: center;
     padding: 0 20px;
-  }
-  
-  .hero h1 {
+    }
+    
+    .hero h1 {
     font-size: 30px;
     margin-bottom: 20px;
-  }
-  
-  .hero p {
+    }
+    
+    .hero p {
     font-size: 14px;
     margin-bottom: 50px;
-  }
-  
-  .hero button {
+    }
+    
+    .hero button {
     background-color: var(--primary-color);
     color: var(--text-color);
     border: none;
@@ -72,79 +76,81 @@
     cursor: pointer;
     border-radius: 50px;
     transition: background-color 0.3s;
-  }
-  
-  .hero button:hover {
+    }
+    
+    .hero button:hover {
     background-color: darken(var(--primary-color), 10%);
-  }
-  
-  .text-content {
+    }
+    
+    .text-content {
     padding: 40px 20px;
     text-align: center;
     color: var(--text-color);
-  }
-  
-  .text-content p {
+    }
+    
+    .text-content p {
     font-size: 14px;
     margin: 0;
     line-height: 1.2;
-  }
-  
-  footer {
+    }
+    
+    footer {
     background-color: #333;
     color: var(--text-color);
     text-align: center;
     padding: 20px 0;
-  }
-  
-  @media (max-width: 767px) {
-    body {
-      background-size: auto 100%;
     }
-  
+    
+    @media (max-width: 767px) {
+    body {
+    background-size: auto 100%;
+    }
+    
+    css
+    
+    Copy
     header {
       padding: 10px;
     }
-  
+    
     .logo {
       font-size: 11px;
     }
-  
+    
     .logo img {
       height: 30px;
       margin-right: 8px;
     }
-  
+    
     nav a {
       font-size: 11px;
       margin-left: 12px;
     }
-  
+    
     .hero {
       height: auto;
       padding: 40px 20px;
     }
-  
+    
     .hero h1 {
       font-size: 24px;
       margin-bottom: 16px;
     }
-  
+    
     .hero p {
       font-size: 12px;
       margin-bottom: 40px;
     }
-  
+    
     .hero button {
       font-size: 12px;
       padding: 8px 16px;
     }
-  
+    
     .text-content {
       padding: 30px 20px;
     }
-  
+    
     .text-content p {
       font-size: 12px;
     }
-  }
