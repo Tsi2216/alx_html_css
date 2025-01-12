@@ -42,3 +42,5 @@ Make your changes and test them thoroughly.
 Submit a pull request with a detailed description of your changes.
 License
 This project is licensed under the MIT License.
+
+By following these guidelines, the Headphones website redesign project can effectively meet its goals and enhance user experience.
